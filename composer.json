@@ -1,0 +1,26 @@
+{
+  "name": "russiaeod/feedback-bot",
+  "description": "telegram feedback bot",
+  "type": "project",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "russia eod",
+      "email": "email@example.com",
+      "homepage": "https://t.me/eod_russia",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Russiaeod\\FeedbackBot\\": "app/"
+    }
+  },
+  "require": {
+    "php": "8.0.*",
+    "telegram-bot/api": "*",
+    "vlucas/phpdotenv": "^5.5",
+    "monolog/monolog": "^2.9"
+  }
+}
